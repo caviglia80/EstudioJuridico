@@ -8,6 +8,7 @@ import { PreguntasFrecuentesComponent } from './components/preguntas-frecuentes/
 
 const routes: Routes = [
   { path: '', redirectTo: '/inicio', pathMatch: 'full' },
+  { path: '**', redirectTo: '/inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponent },
   { path: 'servicios', component: ServiciosComponent },
   { path: 'casos-exito', component: CasosExitoComponent },
