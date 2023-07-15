@@ -7,13 +7,13 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { PreguntasFrecuentesComponent } from './components/preguntas-frecuentes/preguntas-frecuentes.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
-  { path: '**', redirectTo: '/inicio', pathMatch: 'full' },
   { path: 'inicio', component: InicioComponent },
   { path: 'servicios', component: ServiciosComponent },
   { path: 'casos-exito', component: CasosExitoComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'preguntas-frecuentes', component: PreguntasFrecuentesComponent },
+  { path: '', redirectTo: '/inicio', pathMatch: 'full' }, //si no mandan nada, al inicio
+  { path: '**', redirectTo: '/inicio', pathMatch: 'full' } //si mandan fruta lleva al inicio
 ];
 
 @NgModule({
