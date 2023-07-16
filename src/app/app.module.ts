@@ -8,6 +8,7 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
 import { CasosExitoComponent } from './components/casos-exito/casos-exito.component';
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { PreguntasFrecuentesComponent } from './components/preguntas-frecuentes/preguntas-frecuentes.component';
+import { NavComponent } from './components/globals/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PreguntasFrecuentesComponent } from './components/preguntas-frecuentes/
     ServiciosComponent,
     CasosExitoComponent,
     ContactoComponent,
-    PreguntasFrecuentesComponent
+    PreguntasFrecuentesComponent,
+    NavComponent
   ],
   imports: [
     BrowserModule,
