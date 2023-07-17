@@ -11,6 +11,7 @@ import { InformaticaComponent } from './components/informatica/informatica.compo
 import { CotizarComponent } from './components/cotizar/cotizar.component';
 import { WhatsappBtnComponent } from './components/whatsapp-btn/whatsapp-btn.component';
 import { InstagramBtnComponent } from './components/instagram-btn/instagram-btn.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { InstagramBtnComponent } from './components/instagram-btn/instagram-btn.
     InformaticaComponent,
     CotizarComponent,
     WhatsappBtnComponent,
-    InstagramBtnComponent
+    InstagramBtnComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

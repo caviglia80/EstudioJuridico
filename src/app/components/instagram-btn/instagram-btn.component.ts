@@ -16,7 +16,8 @@ export class InstagramBtnComponent {
     if (isAppInstalled) {
       window.location.href = appLink;
     } else {
-      window.location.href = webLink;
+      /* window.location.href = webLink; */
+      window.open(webLink, '_blank', 'noopener,noreferrer'); /* para abrir en una nueva pestaña */
     }
   }
 

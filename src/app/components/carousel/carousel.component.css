@@ -1,0 +1,9 @@
+.carousel-image {
+    width: 100%;
+    height: 93vh;
+    object-fit: fill;
+}
+
+.row {
+    --bs-gutter-x: initial;
+  }
