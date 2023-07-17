@@ -1,10 +1,24 @@
-<nav class="navbar" style="z-index: 10000;">
-  <ul class="nav-menu">
-    <li class="nav-item"><a class="nav-link" routerLink="/inicio">Inicio</a></li>
-    <li class="nav-item"><a class="nav-link" routerLink="/servicios">Servicios</a></li>
-    <li class="nav-item"><a class="nav-link" routerLink="/preguntas-frecuentes">Preguntas frecuentes</a></li>
-    <li class="nav-item"><a class="nav-link" routerLink="/casos-exito">Casos de éxito</a></li>
-    <li class="nav-item"><a class="nav-link" routerLink="/contacto">Contacto</a></li>
-  </ul>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <h1 class="navbar-brand">ECA</h1>
+    <!-- <img src="assets\13.png" alt="Icono" class="navbar-toggler-icon"> -->
+
+    <!-- Boton para el menu movil -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu"
+      aria-expanded="false" aria-label="Mostrar / Ocultar Menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Menu de navegacion -->
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" routerLink="/inicio" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/areas" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Areas</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/preguntas-frecuentes" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Preguntas frecuentes</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/cotizar" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Cotizar</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/informatica" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Informática</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="/contacto" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
 </nav>
-<h1>AAAAAAAAAAA</h1>
