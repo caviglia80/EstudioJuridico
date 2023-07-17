@@ -10,6 +10,7 @@ import { AreasComponent } from './components/areas/areas.component';
 import { InformaticaComponent } from './components/informatica/informatica.component';
 import { CotizarComponent } from './components/cotizar/cotizar.component';
 import { WhatsappBtnComponent } from './components/whatsapp-btn/whatsapp-btn.component';
+import { InstagramBtnComponent } from './components/instagram-btn/instagram-btn.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { WhatsappBtnComponent } from './components/whatsapp-btn/whatsapp-btn.com
     AreasComponent,
     InformaticaComponent,
     CotizarComponent,
-    WhatsappBtnComponent
+    WhatsappBtnComponent,
+    InstagramBtnComponent
   ],
   imports: [
     BrowserModule,
