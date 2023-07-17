@@ -1,88 +1,31 @@
-<div class="container">
-    <div class="row mt-4">
-        <div class="col">
-            <div class="accordion accordion-flush" id="temario">
-                <!-- Elemento #1 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="encabezado-1">
-                        <button
-                            class="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#elemento-1"
-                            aria-expanded="true"
-                            aria-controles="elemento-1"
-                        >
-                            Capitulo #1
-                        </button>
-                    </h2>
-
-                    <div
-                        id="elemento-1"
-                        class="accordion-collapse collapse show"
-                        aria-labelledby="encabezado-1"
-                        data-bs-parent="#temario"
-                    >
-                        <div class="accordion-body">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, praesentium animi. Ratione accusamus fugit saepe cupiditate omnis accusantium modi adipisci, sunt numquam expedita, ea deleniti aliquid et quas voluptatum iusto.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Elemento #2 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="encabezado-2">
-                        <button
-                            class="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#elemento-2"
-                            aria-expanded="true"
-                            aria-controles="elemento-2"
-                        >
-                            Capitulo #2
-                        </button>
-                    </h2>
-
-                    <div
-                        id="elemento-2"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="encabezado-2"
-                        data-bs-parent="#temario"
-                    >
-                        <div class="accordion-body">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, praesentium animi. Ratione accusamus fugit saepe cupiditate omnis accusantium modi adipisci, sunt numquam expedita, ea deleniti aliquid et quas voluptatum iusto.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Elemento #3 -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="encabezado-3">
-                        <button
-                            class="accordion-button"
-                            type="button"
-                            data-bs-toggle="collapse"
-                            data-bs-target="#elemento-3"
-                            aria-expanded="true"
-                            aria-controles="elemento-3"
-                        >
-                            Capitulo #3
-                        </button>
-                    </h2>
-
-                    <div
-                        id="elemento-3"
-                        class="accordion-collapse collapse"
-                        aria-labelledby="encabezado-3"
-                        data-bs-parent="#temario"
-                    >
-                        <div class="accordion-body">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, praesentium animi. Ratione accusamus fugit saepe cupiditate omnis accusantium modi adipisci, sunt numquam expedita, ea deleniti aliquid et quas voluptatum iusto.</p>
-                        </div>
-                    </div>
-                </div>
+<div class="row mt-1">
+    <div class="col">
+      <div class="accordion" id="temario">
+        <div class="accordion-item">
+          <h2 class="accordion-header" [id]="encabezado">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse" 
+              [attr.data-bs-target]="elementId" 
+              aria-expanded="true" 
+              [attr.aria-controls]="elemento"
+            >
+              {{ btnStr }}
+            </button>
+          </h2>
+          <div
+            [id]="elemento" 
+            class="accordion-collapse collapse"
+            [ngClass]="{ 'show' : id === 1 }"
+            [attr.aria-labelledby]="encabezado" 
+          >
+            <div class="accordion-body">
+              <p>{{ body }}</p>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</div>
+  </div>
+  
