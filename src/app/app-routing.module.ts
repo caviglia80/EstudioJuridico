@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { InicioComponent } from './components/inicio/inicio.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
-import { InformaticaComponent } from './components/informatica/informatica.component';
-import { AreasComponent } from './components/areas/areas.component';
-import { CotizarComponent } from './components/cotizar/cotizar.component';
-import { PreguntasFrecuentesComponent } from './components/preguntas-frecuentes/preguntas-frecuentes.component';
+import { InicioComponent } from './components/pages/inicio/inicio.component';
+import { ContactoComponent } from './components/pages/contacto/contacto.component';
+import { InformaticaComponent } from './components/pages/informatica/informatica.component';
+import { AreasComponent } from './components/pages/areas/areas.component';
+import { CotizarComponent } from './components/pages/cotizar/cotizar.component';
+import { PreguntasFrecuentesComponent } from './components/pages/preguntas-frecuentes/preguntas-frecuentes.component';
 /* import { NavComponent } from './components/globals/nav/nav.component';
  */
 const routes: Routes = [
