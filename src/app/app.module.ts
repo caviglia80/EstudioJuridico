@@ -13,6 +13,7 @@ import { WhatsappBtnComponent } from '@elements/whatsapp-btn/whatsapp-btn.compon
 import { InstagramBtnComponent } from '@elements/instagram-btn/instagram-btn.component';
 import { CarouselComponent } from '@elements/carousel/carousel.component';
 import { AccordionComponent } from '@elements/accordion/accordion.component';
+import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { AccordionComponent } from '@elements/accordion/accordion.component';
     WhatsappBtnComponent,
     InstagramBtnComponent,
     CarouselComponent,
-    AccordionComponent
+    AccordionComponent,
+    CardTabAreasComponent
   ],
   imports: [
     BrowserModule,
