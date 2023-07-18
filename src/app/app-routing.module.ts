@@ -1,13 +1,12 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { InicioComponent } from './components/pages/inicio/inicio.component';
-import { ContactoComponent } from './components/pages/contacto/contacto.component';
-import { InformaticaComponent } from './components/pages/informatica/informatica.component';
-import { AreasComponent } from './components/pages/areas/areas.component';
-import { CotizarComponent } from './components/pages/cotizar/cotizar.component';
-import { PreguntasFrecuentesComponent } from './components/pages/preguntas-frecuentes/preguntas-frecuentes.component';
-/* import { NavComponent } from './components/globals/nav/nav.component';
- */
+import { InicioComponent } from '@pages/inicio/inicio.component';
+import { ContactoComponent } from '@pages/contacto/contacto.component';
+import { InformaticaComponent } from '@pages/informatica/informatica.component';
+import { AreasComponent } from '@pages/areas/areas.component';
+import { CotizarComponent } from '@pages/cotizar/cotizar.component';
+import { PreguntasFrecuentesComponent } from '@pages/preguntas-frecuentes/preguntas-frecuentes.component';
+
 const routes: Routes = [
   { path: 'inicio', component: InicioComponent },
   { path: 'informatica', component: InformaticaComponent },
