@@ -1,7 +1,7 @@
-<div class="row mt-1">
+<div class="row">
     <div class="col">
       <div class="accordion" id="temario">
-        <div class="accordion-item">
+        <div class="accordion-item shadow-lg">
           <h2 class="accordion-header" [id]="encabezado">
             <button
               class="accordion-button collapsed"
@@ -14,7 +14,7 @@
               {{ btnStr }}
             </button>
           </h2>
-          <div
+          <div 
             [id]="elemento" 
             class="accordion-collapse collapse"
             [ngClass]="{ 'show' : id === 1 }"
