@@ -6,8 +6,9 @@ import { environment } from '@environments/environment';
   styleUrls: ['./whatsapp-btn.component.css']
 })
 export class WhatsappBtnComponent implements OnInit {
-  whatsapp = environment.whatsapp1;
-
+  whatsapp:string = environment.whatsapp1;
+  txt:string = encodeURIComponent("Buenos dias, quisiera tener mas informacion sobre un tema");
+  
   constructor() { }
 
   ngOnInit(): void {
