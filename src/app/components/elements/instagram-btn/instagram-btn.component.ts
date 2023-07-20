@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from '@environments/environment';
 
 @Component({
   selector: 'app-instagram-btn',
@@ -7,8 +8,8 @@ import { Component } from '@angular/core';
 })
 export class InstagramBtnComponent {
   redirectToInstagram() {
-    const appLink = "instagram://user?username=fraancaviglia";
-    const webLink = "https://www.instagram.com/fraancaviglia/";
+    const appLink = "instagram://user?username=" + environment.instagram1; 
+    const webLink = "https://www.instagram.com/" + environment.instagram1;
 
     // Comprobar si la aplicación de Instagram está instalada
     const isAppInstalled = this.isInstagramAppInstalled();
