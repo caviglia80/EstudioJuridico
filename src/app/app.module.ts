@@ -14,6 +14,8 @@ import { CarouselComponent } from '@elements/carousel/carousel.component';
 import { AccordionComponent } from '@elements/accordion/accordion.component';
 import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.component';
 import { EnviarWhatsappComponent } from './components/elements/enviar-whatsapp/enviar-whatsapp.component';
+import { AvisoFueraDeHorarioComponent } from './components/elements/aviso-fuera-de-horario/aviso-fuera-de-horario.component';
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { EnviarWhatsappComponent } from './components/elements/enviar-whatsapp/e
     CarouselComponent,
     AccordionComponent,
     CardTabAreasComponent,
-    EnviarWhatsappComponent
+    EnviarWhatsappComponent,
+    AvisoFueraDeHorarioComponent
   ],
   imports: [
     BrowserModule,

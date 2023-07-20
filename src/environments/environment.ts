@@ -5,7 +5,12 @@
 export const environment = {
   production: false,
   whatsapp1: '5492364653595',
-  instagram1: 'fraancaviglia'
+  instagram1: 'fraancaviglia',
+  horarioDeInicio_1: 9,
+  horarioDeFin_1: 12,
+  horarioDeInicio_2: 16,
+  horarioDeFin_2: 20,
+  habilitarMostrarHorario: false
 };
 
 /*
