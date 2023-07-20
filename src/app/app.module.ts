@@ -4,7 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioComponent } from '@pages/inicio/inicio.component';
 import { ContactoComponent } from '@pages/contacto/contacto.component';
-import { PreguntasFrecuentesComponent } from '@pages/preguntas-frecuentes/preguntas-frecuentes.component';
+import { FaqComponent } from '@pages/faq/faq.component';
 import { InformaticaComponent } from '@pages/informatica/informatica.component';
 import { CotizarComponent } from '@pages/cotizar/cotizar.component';
 import { AreasComponent } from '@pages/areas/areas.component';
@@ -20,7 +20,7 @@ import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.c
     AppComponent,
     InicioComponent,
     ContactoComponent,
-    PreguntasFrecuentesComponent,
+    FaqComponent,
     NavComponent,
     AreasComponent,
     InformaticaComponent,
