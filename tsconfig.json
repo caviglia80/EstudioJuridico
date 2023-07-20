@@ -6,7 +6,7 @@
       "@app/*": ["src/app/*"],
       "@shared/*": ["src/app/shared/*"],
       "@components/*": ["src/app/components/*"],
-      "@environments/*": ["src/app/environments/*"],
+      "@environments/*": ["src/environments/*"],
       "@assets/*": ["src/app/assets/*"],
       "@services/*": ["src/app/services/*"],
       "@elements/*": ["src/app/components/elements/*"],

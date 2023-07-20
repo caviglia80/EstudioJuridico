@@ -6,7 +6,6 @@ import { InicioComponent } from '@pages/inicio/inicio.component';
 import { ContactoComponent } from '@pages/contacto/contacto.component';
 import { FaqComponent } from '@pages/faq/faq.component';
 import { InformaticaComponent } from '@pages/informatica/informatica.component';
-import { CotizarComponent } from '@pages/cotizar/cotizar.component';
 import { AreasComponent } from '@pages/areas/areas.component';
 import { NavComponent } from '@elements/nav/nav.component';
 import { WhatsappBtnComponent } from '@elements/whatsapp-btn/whatsapp-btn.component';
@@ -14,6 +13,7 @@ import { InstagramBtnComponent } from '@elements/instagram-btn/instagram-btn.com
 import { CarouselComponent } from '@elements/carousel/carousel.component';
 import { AccordionComponent } from '@elements/accordion/accordion.component';
 import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.component';
+import { EnviarWhatsappComponent } from './components/elements/enviar-whatsapp/enviar-whatsapp.component';
 
 @NgModule({
   declarations: [
@@ -24,12 +24,12 @@ import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.c
     NavComponent,
     AreasComponent,
     InformaticaComponent,
-    CotizarComponent,
     WhatsappBtnComponent,
     InstagramBtnComponent,
     CarouselComponent,
     AccordionComponent,
-    CardTabAreasComponent
+    CardTabAreasComponent,
+    EnviarWhatsappComponent
   ],
   imports: [
     BrowserModule,

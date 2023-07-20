@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CotizarComponent } from './cotizar.component';
+import { EnviarWhatsappComponent } from './enviar-whatsapp.component';
 
-describe('CotizarComponent', () => {
-  let component: CotizarComponent;
-  let fixture: ComponentFixture<CotizarComponent>;
+describe('EnviarWhatsappComponent', () => {
+  let component: EnviarWhatsappComponent;
+  let fixture: ComponentFixture<EnviarWhatsappComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CotizarComponent ]
+      declarations: [ EnviarWhatsappComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CotizarComponent);
+    fixture = TestBed.createComponent(EnviarWhatsappComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
