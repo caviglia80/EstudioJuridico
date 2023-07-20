@@ -10,7 +10,8 @@ export const environment = {
   horarioDeFin_1: 12,
   horarioDeInicio_2: 16,
   horarioDeFin_2: 20,
-  habilitarMostrarHorario: false
+  habilitarMostrarHorario: false,
+  mostrarMensajeUsuario: ""
 };
 
 /*

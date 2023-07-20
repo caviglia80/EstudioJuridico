@@ -15,6 +15,7 @@ import { AccordionComponent } from '@elements/accordion/accordion.component';
 import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.component';
 import { EnviarWhatsappComponent } from './components/elements/enviar-whatsapp/enviar-whatsapp.component';
 import { AvisoFueraDeHorarioComponent } from './components/elements/aviso-fuera-de-horario/aviso-fuera-de-horario.component';
+import { MensajeUsuarioComponent } from './components/elements/mensaje-usuario/mensaje-usuario.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { AvisoFueraDeHorarioComponent } from './components/elements/aviso-fuera-
     AccordionComponent,
     CardTabAreasComponent,
     EnviarWhatsappComponent,
-    AvisoFueraDeHorarioComponent
+    AvisoFueraDeHorarioComponent,
+    MensajeUsuarioComponent
   ],
   imports: [
     BrowserModule,
