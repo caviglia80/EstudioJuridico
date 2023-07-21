@@ -1,18 +1,21 @@
-<header>
+<section class="bg-light general">
     <section>
-        <app-nav></app-nav>
-        <app-aviso-fuera-de-horario></app-aviso-fuera-de-horario>
-        <app-mensaje-usuario></app-mensaje-usuario>
+        <header>
+            <app-nav></app-nav>
+            <app-aviso-fuera-de-horario></app-aviso-fuera-de-horario>
+            <app-mensaje-usuario></app-mensaje-usuario>
+        </header>
     </section>
-</header>
-
-<section class="bg-light">
-    <router-outlet></router-outlet>
-</section>
-
-<section>
-    <div class="fixed-bottom d-flex flex-column align-items-end p-3">
-        <app-whatsapp-btn class="mb-2"></app-whatsapp-btn>
-        <app-instagram-btn class="me-1"></app-instagram-btn>
-    </div>
+    
+    <section>
+        <router-outlet></router-outlet>
+        <div class="fixed-bottom d-flex flex-column align-items-end p-3">
+            <app-whatsapp-btn class="mb-2"></app-whatsapp-btn>
+            <app-instagram-btn class="me-1"></app-instagram-btn>
+        </div>
+    </section>
+    
+    <section>
+        <app-footer></app-footer>
+    </section>
 </section>
