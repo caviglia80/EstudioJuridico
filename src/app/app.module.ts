@@ -18,6 +18,8 @@ import { AvisoFueraDeHorarioComponent } from './components/elements/aviso-fuera-
 import { MensajeUsuarioComponent } from './components/elements/mensaje-usuario/mensaje-usuario.component';
 import { TablaScopeInformaticaComponent } from './components/elements/tabla-scope-informatica/tabla-scope-informatica.component';
 import { FooterComponent } from './components/elements/footer/footer.component';
+import { GlobosComponent } from './components/elements/globos/globos.component';
+import { CustomCardsComponent } from './components/elements/custom-cards/custom-cards.component';
 
 
 @NgModule({
@@ -38,7 +40,9 @@ import { FooterComponent } from './components/elements/footer/footer.component';
     AvisoFueraDeHorarioComponent,
     MensajeUsuarioComponent,
     TablaScopeInformaticaComponent,
-    FooterComponent
+    FooterComponent,
+    GlobosComponent,
+    CustomCardsComponent
   ],
   imports: [
     BrowserModule,
