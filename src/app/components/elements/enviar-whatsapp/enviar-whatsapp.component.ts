@@ -14,7 +14,7 @@ export class EnviarWhatsappComponent {
     const elemento = this.textoInput.nativeElement as HTMLInputElement;
 
     if (elemento) {
-      const url = "https://wa.me/" + environment.whatsapp1 + "/?text=" + encodeURIComponent(elemento.value); // Reemplaza esto con la URL que deseas abrir
+      const url = "https://wa.me/" + environment.whatsapp_1 + "/?text=" + encodeURIComponent(elemento.value); // Reemplaza esto con la URL que deseas abrir
       window.open(url, '_blank');
     }
   }

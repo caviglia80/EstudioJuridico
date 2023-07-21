@@ -16,6 +16,7 @@ import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.c
 import { EnviarWhatsappComponent } from './components/elements/enviar-whatsapp/enviar-whatsapp.component';
 import { AvisoFueraDeHorarioComponent } from './components/elements/aviso-fuera-de-horario/aviso-fuera-de-horario.component';
 import { MensajeUsuarioComponent } from './components/elements/mensaje-usuario/mensaje-usuario.component';
+import { TablaScopeInformaticaComponent } from './components/elements/tabla-scope-informatica/tabla-scope-informatica.component';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { MensajeUsuarioComponent } from './components/elements/mensaje-usuario/m
     CardTabAreasComponent,
     EnviarWhatsappComponent,
     AvisoFueraDeHorarioComponent,
-    MensajeUsuarioComponent
+    MensajeUsuarioComponent,
+    TablaScopeInformaticaComponent
   ],
   imports: [
     BrowserModule,
