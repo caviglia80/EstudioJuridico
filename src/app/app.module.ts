@@ -21,7 +21,6 @@ import { FooterComponent } from './components/elements/footer/footer.component';
 import { GlobosComponent } from './components/elements/globos/globos.component';
 import { CustomCardsComponent } from './components/elements/custom-cards/custom-cards.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,

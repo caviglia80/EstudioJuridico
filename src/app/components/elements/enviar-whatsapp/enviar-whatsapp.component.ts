@@ -8,14 +8,13 @@ import { environment } from '@environments/environment';
 })
 
 export class EnviarWhatsappComponent {
-  @ViewChild('textoInput', { static: true }) textoInput!: ElementRef; // Obtener la referencia al input
+  @ViewChild('textoInput', { static: true }) textoInput!: ElementRef;
   
   enviarTexto(): void {
     const elemento = this.textoInput.nativeElement as HTMLInputElement;
-
     if (elemento) {
-      const url = "https://wa.me/" + environment.whatsapp_1 + "/?text=" + encodeURIComponent(elemento.value); // Reemplaza esto con la URL que deseas abrir
-      window.open(url, '_blank');
+      const url = "https://wa.me/" + environment.whatsapp_1 + "/?text=" + encodeURIComponent(elemento.value);
+      window.open(url, '_blank', 'noopener,noreferrer');
     }
   }
 }

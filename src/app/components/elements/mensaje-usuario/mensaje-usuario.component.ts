@@ -11,6 +11,6 @@ export class MensajeUsuarioComponent {
   MensajeUsuario: string = environment.mostrarMensajeUsuario;
 
   cerrarToast(): void {
-    this.MensajeUsuario = "";
+    this.MensajeUsuario = '';
   }
 }

@@ -8,26 +8,19 @@ import { environment } from '@environments/environment';
 })
 export class InstagramBtnComponent {
   redirectToInstagram() {
-    const appLink = "instagram://user?username=" + environment.instagram1; 
+    const appLink = "instagram://user?username=" + environment.instagram1;
     const webLink = "https://www.instagram.com/" + environment.instagram1;
 
-    // Comprobar si la aplicación de Instagram está instalada
-    const isAppInstalled = this.isInstagramAppInstalled();
-
-    if (isAppInstalled) {
+    if (this.isInstagramAppInstalled())
       window.location.href = appLink;
-    } else {
-      /* window.location.href = webLink; */
-      window.open(webLink, '_blank', 'noopener,noreferrer'); /* para abrir en una nueva pestaña */
-    }
+    else
+      window.open(webLink, '_blank', 'noopener,noreferrer');
   }
 
   isInstagramAppInstalled(): boolean {
     // Verificar si el navegador admite el esquema de enlace de Instagram
     const isInstagramSupported = window.navigator && window.navigator.userAgent.match(/instagram/i);
     // Verificar si la aplicación de Instagram está instalada en el dispositivo
-    const isAppInstalled = window.location.href.startsWith("instagram://");
-
-    return !!(isInstagramSupported && isAppInstalled);
+    return !!(isInstagramSupported && window.location.href.startsWith("instagram://"));
   }
 }

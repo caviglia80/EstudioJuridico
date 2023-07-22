@@ -14,8 +14,6 @@ export class AvisoFueraDeHorarioComponent implements OnInit {
   horarioInicio2: number = environment.horarioDeInicio_2;
   horarioFin2: number = environment.horarioDeFin_2;
 
-  constructor() { }
-
   ngOnInit(): void {
     this.comprobarHorario();
   }
@@ -23,11 +21,10 @@ export class AvisoFueraDeHorarioComponent implements OnInit {
   comprobarHorario(): void {
     const horaActual: number = new Date().getHours();
 
-    if (horaActual >= this.horarioInicio1 && horaActual <= this.horarioFin1 || horaActual >= this.horarioInicio2 && horaActual <= this.horarioFin2) {
+    if (horaActual >= this.horarioInicio1 && horaActual <= this.horarioFin1 || horaActual >= this.horarioInicio2 && horaActual <= this.horarioFin2)
       this.mostrarHorario = false;
-    } else {
+    else
       this.mostrarHorario = environment.habilitarMostrarHorario;
-    }
   }
 
   cerrarToast(): void {
