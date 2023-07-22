@@ -7,6 +7,9 @@ import { environment } from '@environments/environment';
   styleUrls: ['./whatsapp-btn.component.css']
 })
 export class WhatsappBtnComponent {
-  whatsapp:string = environment.whatsapp_1;
-  txt:string = encodeURIComponent(environment.whatsapp_txt_1);
+
+  redirectToWsp() {
+    const webLink = "https://wa.me/" + environment.whatsapp_1 + "/?text=" + encodeURIComponent(environment.whatsapp_txt_1);
+    window.open(webLink, '_blank', 'noopener,noreferrer');
+  }
 }
