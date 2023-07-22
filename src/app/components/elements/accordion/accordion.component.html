@@ -5,10 +5,11 @@
           <h2 class="accordion-header" [id]="encabezado">
             <button
               class="accordion-button collapsed"
+              [ngClass]="{ 'collapsed' : id !== 1 }"
               type="button"
               data-bs-toggle="collapse" 
               [attr.data-bs-target]="elementId" 
-              aria-expanded="true" 
+              [attr.aria-expanded]="id === 1 ? 'true' : 'false'" 
               [attr.aria-controls]="elemento"
             >
               {{ btnStr }}
