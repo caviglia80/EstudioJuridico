@@ -1,12 +1,12 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component/* , Input, OnInit */ } from '@angular/core';
 
 @Component({
   selector: 'app-accordion',
   templateUrl: './accordion.component.html',
   styleUrls: ['./accordion.component.css']
 })
-export class AccordionComponent implements OnInit {
-  @Input() id: number = 0;
+export class AccordionComponent /* implements OnInit */ {
+/*   @Input() id: number = 0;
   @Input() btnStr: string = '';
   @Input() body: string = '';
   public elementId: string = '';
@@ -19,6 +19,7 @@ export class AccordionComponent implements OnInit {
     this.encabezado = `encabezado-${this.id}`;
     this.btnStr = this.btnStr ? this.btnStr.toString() : '';
     this.body = this.body ? this.body.toString() : '';
-  }
+  } */
 }
 
+ 
