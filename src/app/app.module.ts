@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { InicioComponent } from '@pages/inicio/inicio.component';
+import { HomeComponent } from '@pages/home/home.component';
 import { ContactoComponent } from '@pages/contacto/contacto.component';
 import { FaqComponent } from '@pages/faq/faq.component';
 import { InformaticaComponent } from '@pages/informatica/informatica.component';
@@ -24,7 +24,7 @@ import { CustomCardsComponent } from '@elements/custom-cards/custom-cards.compon
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent,
+    HomeComponent,
     ContactoComponent,
     FaqComponent,
     NavComponent,
