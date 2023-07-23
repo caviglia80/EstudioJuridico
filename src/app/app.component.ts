@@ -10,15 +10,15 @@ export class AppComponent {
 }
 
 export class GlobalVariables {
-  public static horarioDeInicio_1:number= 9;
-  public static horarioDeFin_1:number= 12;
-  public static horarioDeInicio_2:number= 16;
-  public static horarioDeFin_2:number= 20;
-  public static habilitarMostrarHorario:boolean = false;
-  public static whatsapp_1:string= '5492364653595';
-  public static whatsapp_txt_1:string= 'Buenos dias, quisiera tener mas informacion sobre un tema legal';
-  public static whatsapp_2:string= '5492364653595';
-  public static whatsapp_txt_2:string= 'Buenos dias, tengo interes en saber mas sobre el servicio de desarrollo para ';
-  public static instagram1:string= 'fraancaviglia';
-  public static mostrarMensajeUsuario:string= '';
+  public static horarioDeInicio_1: number = 9;
+  public static horarioDeFin_1: number = 12;
+  public static horarioDeInicio_2: number = 16;
+  public static horarioDeFin_2: number = 20;
+  public static habilitarMostrarHorario: boolean = false;
+  public static whatsapp_1: string = '5492364653595';
+  public static whatsapp_txt_1: string = 'Buenos dias, quisiera tener mas informacion sobre un tema legal';
+  public static whatsapp_2: string = '5492364653595';
+  public static whatsapp_txt_2: string = 'Buenos dias, tengo interes en saber mas sobre el servicio de desarrollo para ';
+  public static instagram1: string = 'fraancaviglia';
+  public static mostrarMensajeUsuario: string = '';
 }
