@@ -13,13 +13,13 @@ import { InstagramBtnComponent } from '@elements/instagram-btn/instagram-btn.com
 import { CarouselComponent } from '@elements/carousel/carousel.component';
 import { AccordionComponent } from '@elements/accordion/accordion.component';
 import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.component';
-import { EnviarWhatsappComponent } from './components/elements/enviar-whatsapp/enviar-whatsapp.component';
-import { AvisoFueraDeHorarioComponent } from './components/elements/aviso-fuera-de-horario/aviso-fuera-de-horario.component';
-import { MensajeUsuarioComponent } from './components/elements/mensaje-usuario/mensaje-usuario.component';
-import { TablaScopeInformaticaComponent } from './components/elements/tabla-scope-informatica/tabla-scope-informatica.component';
-import { FooterComponent } from './components/elements/footer/footer.component';
-import { GlobosComponent } from './components/elements/globos/globos.component';
-import { CustomCardsComponent } from './components/elements/custom-cards/custom-cards.component';
+import { EnviarWhatsappComponent } from '@elements/enviar-whatsapp/enviar-whatsapp.component';
+import { AvisoFueraDeHorarioComponent } from '@elements/aviso-fuera-de-horario/aviso-fuera-de-horario.component';
+import { MensajeUsuarioComponent } from '@elements/mensaje-usuario/mensaje-usuario.component';
+import { TablaScopeInformaticaComponent } from '@elements/tabla-scope-informatica/tabla-scope-informatica.component';
+import { FooterComponent } from '@elements/footer/footer.component';
+import { GlobosComponent } from '@elements/globos/globos.component';
+import { CustomCardsComponent } from '@elements/custom-cards/custom-cards.component';
 
 @NgModule({
   declarations: [
@@ -51,3 +51,5 @@ import { CustomCardsComponent } from './components/elements/custom-cards/custom-
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
