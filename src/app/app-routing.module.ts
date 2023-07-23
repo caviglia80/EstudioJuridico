@@ -12,8 +12,8 @@ const routes: Routes = [
   { path: 'areas', component: AreasComponent },
   { path: 'contacto', component: ContactoComponent },
   { path: 'faq', component: FaqComponent },
-  { path: '', redirectTo: '/inicio', pathMatch: 'full' }, //si no mandan nada, al inicio
-  { path: '**', redirectTo: '/inicio', pathMatch: 'full' } //si mandan fruta lleva al inicio
+  { path: '', redirectTo: '/inicio', pathMatch: 'full' },
+  { path: '**', redirectTo: '/inicio', pathMatch: 'full' }
 ];
 
 @NgModule({
