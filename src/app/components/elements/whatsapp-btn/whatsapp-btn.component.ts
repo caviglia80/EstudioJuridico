@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { environment } from '@environments/environment';
+import { GlobalVariables } from 'src/app/app.component';
 
 @Component({
   selector: 'app-whatsapp-btn',
@@ -9,7 +9,7 @@ import { environment } from '@environments/environment';
 export class WhatsappBtnComponent {
 
   redirectToWsp() {
-    const webLink = "https://wa.me/" + environment.whatsapp_1 + "/?text=" + encodeURIComponent(environment.whatsapp_txt_1);
+    const webLink = "https://wa.me/" + GlobalVariables.whatsapp_1 + "/?text=" + encodeURIComponent(GlobalVariables.whatsapp_txt_1);
     window.open(webLink, '_blank', 'noopener,noreferrer');
   }
 }

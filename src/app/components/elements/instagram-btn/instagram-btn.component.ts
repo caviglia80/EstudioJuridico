@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { environment } from '@environments/environment';
+import { GlobalVariables } from 'src/app/app.component';
 
 @Component({
   selector: 'app-instagram-btn',
@@ -8,8 +8,8 @@ import { environment } from '@environments/environment';
 })
 export class InstagramBtnComponent {
   redirectToInstagram() {
-    const appLink = "instagram://user?username=" + environment.instagram1;
-    const webLink = "https://www.instagram.com/" + environment.instagram1;
+    const appLink = "instagram://user?username=" + GlobalVariables.instagram1;
+    const webLink = "https://www.instagram.com/" + GlobalVariables.instagram1;
 
     if (this.isInstagramAppInstalled())
       window.location.href = appLink;

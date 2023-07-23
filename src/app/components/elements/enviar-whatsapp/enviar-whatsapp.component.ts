@@ -1,5 +1,5 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { environment } from '@environments/environment';
+import { GlobalVariables } from 'src/app/app.component';
 
 @Component({
   selector: 'app-enviar-whatsapp',
@@ -13,7 +13,7 @@ export class EnviarWhatsappComponent {
   enviarTexto(): void {
     const elemento = this.textoInput.nativeElement as HTMLInputElement;
     if (elemento) {
-      const url = "https://wa.me/" + environment.whatsapp_1 + "/?text=" + encodeURIComponent(elemento.value);
+      const url = "https://wa.me/" + GlobalVariables.whatsapp_1 + "/?text=" + encodeURIComponent(elemento.value);
       window.open(url, '_blank', 'noopener,noreferrer');
     }
   }

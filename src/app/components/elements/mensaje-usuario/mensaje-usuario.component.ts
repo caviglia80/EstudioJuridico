@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { environment } from '@environments/environment';
+import { GlobalVariables } from 'src/app/app.component';
 
 @Component({
   selector: 'app-mensaje-usuario',
@@ -8,7 +8,7 @@ import { environment } from '@environments/environment';
 })
 
 export class MensajeUsuarioComponent {
-  MensajeUsuario: string = environment.mostrarMensajeUsuario;
+  MensajeUsuario: string = GlobalVariables.mostrarMensajeUsuario;
 
   cerrarToast(): void {
     this.MensajeUsuario = '';
