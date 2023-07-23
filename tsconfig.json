@@ -5,13 +5,11 @@
     "paths": {
       "@app/*": ["src/app/*"],
       "@shared/*": ["src/app/shared/*"],
-      "@components/*": ["src/app/components/*"],
+      "@components/*": ["src/app/shared/components/*"],
       "@environments/*": ["src/environments/*"],
       "@assets/*": ["src/app/assets/*"],
-      "@services/*": ["src/app/services/*"],
-      "@elements/*": ["src/app/components/elements/*"],
-      "@pages/*": ["src/app/components/pages/*"],
-      "@types/*": ["src/app/types/*"]
+      "@services/*": ["src/app/shared/services/*"],
+      "@pages/*": ["src/app/pages/*"]
     },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",

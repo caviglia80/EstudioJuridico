@@ -7,19 +7,19 @@ import { ContactoComponent } from '@pages/contacto/contacto.component';
 import { FaqComponent } from '@pages/faq/faq.component';
 import { InformaticaComponent } from '@pages/informatica/informatica.component';
 import { AreasComponent } from '@pages/areas/areas.component';
-import { NavComponent } from '@elements/nav/nav.component';
-import { WhatsappBtnComponent } from '@elements/whatsapp-btn/whatsapp-btn.component';
-import { InstagramBtnComponent } from '@elements/instagram-btn/instagram-btn.component';
-import { CarouselComponent } from '@elements/carousel/carousel.component';
-import { AccordionComponent } from '@elements/accordion/accordion.component';
-import { CardTabAreasComponent } from '@elements/card-tab-areas/card-tab-areas.component';
-import { EnviarWhatsappComponent } from '@elements/enviar-whatsapp/enviar-whatsapp.component';
-import { AvisoFueraDeHorarioComponent } from '@elements/aviso-fuera-de-horario/aviso-fuera-de-horario.component';
-import { MensajeUsuarioComponent } from '@elements/mensaje-usuario/mensaje-usuario.component';
-import { TablaScopeInformaticaComponent } from '@elements/tabla-scope-informatica/tabla-scope-informatica.component';
-import { FooterComponent } from '@elements/footer/footer.component';
-import { GlobosComponent } from '@elements/globos/globos.component';
-import { CustomCardsComponent } from '@elements/custom-cards/custom-cards.component';
+import { NavComponent } from '@components/nav/nav.component';
+import { WhatsappBtnComponent } from '@components/whatsapp-btn/whatsapp-btn.component';
+import { InstagramBtnComponent } from '@components/instagram-btn/instagram-btn.component';
+import { CarouselComponent } from '@components/carousel/carousel.component';
+import { AccordionComponent } from '@components/accordion/accordion.component';
+import { CardTabAreasComponent } from '@components/card-tab-areas/card-tab-areas.component';
+import { EnviarWhatsappComponent } from '@components/enviar-whatsapp/enviar-whatsapp.component';
+import { AvisoFueraDeHorarioComponent } from '@components/aviso-fuera-de-horario/aviso-fuera-de-horario.component';
+import { MensajeUsuarioComponent } from '@components/mensaje-usuario/mensaje-usuario.component';
+import { TablaScopeInformaticaComponent } from '@components/tabla-scope-informatica/tabla-scope-informatica.component';
+import { FooterComponent } from '@components/footer/footer.component';
+import { GlobosComponent } from '@components/globos/globos.component';
+import { CustomCardsComponent } from '@components/custom-cards/custom-cards.component';
 
 @NgModule({
   declarations: [
