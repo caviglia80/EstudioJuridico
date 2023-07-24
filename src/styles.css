@@ -23,3 +23,7 @@
   .Animation {
     animation: btnAnimation .5s;
   }
+
+  .goldColor {
+    color: #ffd900bb; /* #FFD700 */
+  }
