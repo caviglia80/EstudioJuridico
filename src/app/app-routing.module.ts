@@ -25,7 +25,7 @@ const routes: Routes = [
   { path: 'contacto', loadChildren: () => import('@pages/contacto/contacto.module').then(m => m.ContactoModule) },
   { path: 'faq', loadChildren: () => import('@pages/faq/faq.module').then(m => m.FaqModule) },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/home', pathMatch: 'full' }
+  { path: '**', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
