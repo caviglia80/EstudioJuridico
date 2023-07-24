@@ -1,5 +1,20 @@
 # EstudioJuridico
 
+Pagina diseñada para un estudio juridico con Angular, Ts, Bootstrap.
+
+Se aplico lazy loading para la carga de las paginas.
+
+
+
+
+
+
+
+
+
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.12.
 
 ## Development server

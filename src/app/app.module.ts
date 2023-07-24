@@ -98,7 +98,8 @@ import { FaqModule } from '@pages/faq/faq.module';
     ContactoModule,
     FaqModule
   ],
-  providers: [],
+  providers: [
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
