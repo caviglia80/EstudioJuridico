@@ -1,13 +1,10 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <!-- <h1 class="navbar-brand">ECA</h1> -->
-    <img  class="navbar-icon img-fluid" src="assets/tarjeta444.png" alt="Icono de inicio">
-
+    <a href="/home"><img class="navbar-icon img-fluid" src="assets/tarjeta444.png" alt="Icono de inicio"></a>
     <button class="navbar-toggler Animation-active" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu"
      aria-label="Mostrar / Ocultar Menu" [attr.aria-expanded]="!isCollapsed" (click)="isCollapsed = !isCollapsed">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="collapse navbar-collapse" id="menu" [ngClass]="{'show': !isCollapsed}">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 Animation">
         <li class="nav-item"><a class="nav-link goldColor" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
