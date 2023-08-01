@@ -34,9 +34,7 @@ export class InstagramBtnComponent implements OnDestroy {
   }
 
   isInstagramAppInstalled(): boolean {
-    // Verificar si el navegador admite el esquema de enlace de Instagram
     const isInstagramSupported = window.navigator && window.navigator.userAgent.match(/instagram/i);
-    // Verificar si la aplicación de Instagram está instalada en el dispositivo
     return !!(isInstagramSupported && window.location.href.startsWith("instagram://"));
   }
 }

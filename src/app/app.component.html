@@ -9,15 +9,10 @@
 
     <section>
         <router-outlet></router-outlet>
-<!--         <div class="d-flex flex-column align-items-end p-3">
-            <app-whatsapp-btn class="mb-2"></app-whatsapp-btn>
-            <app-instagram-btn class="me-1"></app-instagram-btn>
-        </div> -->
         <div class="d-flex flex-column position-fixed end-0 bottom-0 z-index-9999 text-center">
             <app-whatsapp-btn></app-whatsapp-btn>
             <app-instagram-btn></app-instagram-btn>
         </div>
-
     </section>
 
     <section>
@@ -25,12 +20,3 @@
         <app-footer></app-footer>
     </section>
 </section>
-
-<!-- <div class="d-flex flex-column position-fixed end-0 bottom-0">
-    <a class="m-1" (click)="redirectToWsp()">
-        <img src="assets/logo-wsp.png" width="40" height="40" alt="whatsapp" class="Animation-active">
-    </a>
-    <a class="m-1" *ngIf="isLegalPage" (click)="redirectToInstagram()">
-        <img src="assets/logo-insta.png" width="35" height="35" alt="instagram" class="Animation-active">
-      </a>
-</div> -->
