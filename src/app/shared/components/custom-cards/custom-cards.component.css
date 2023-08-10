@@ -1,0 +1,15 @@
+.container .card {
+    transition: .3s all;
+}
+
+.container .card:hover {
+    box-shadow: 5px 5px 20px black !important;
+
+
+
+}
+
+
+
+
+

@@ -10,7 +10,7 @@ import { GlobalVariables } from 'src/app/app.component';
 export class EnviarWhatsappComponent {
   @ViewChild('textoInput', { static: true }) textoInput!: ElementRef;
   
-  enviarTexto(): void {
+  public enviarTexto(): void {
     const elemento = this.textoInput.nativeElement as HTMLInputElement;
     if (elemento) {
       const url = "https://wa.me/" + GlobalVariables.whatsapp_1 + "/?text=" + encodeURIComponent(elemento.value);
