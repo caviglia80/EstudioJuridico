@@ -1,12 +1,9 @@
-body {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  margin: 0;
-  font-size: 1rem;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
+.container {
+  min-height: 100vh !important;
+}
+
+.container h2, .container h4 {
+  font-weight: bold;
 }
 
 .card {
@@ -58,11 +55,11 @@ body {
   cursor: default;
 }
 
-.view img,
+/* .view img,
 .view video {
   position: relative;
   display: block;
-}
+} */
 
 .card-img,
 .card-img-top,
@@ -86,10 +83,6 @@ body {
   color: black;
 }
 
-.section-preview {
-  padding: 15px;
-}
-
 .card.card-cascade.wider.reverse .card-body.card-body-cascade {
   z-index: 3;
   margin-top: -1rem;
@@ -97,7 +90,7 @@ body {
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-.card.card-cascade.wider .card-body.card-body-cascade {
+.card-body.card-body-cascade {
   z-index: 1;
   margin-right: 4%;
   margin-left: 4%;

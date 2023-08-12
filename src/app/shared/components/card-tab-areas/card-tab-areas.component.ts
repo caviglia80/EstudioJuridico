@@ -7,8 +7,8 @@ import { map, tap } from 'rxjs/operators';
   templateUrl: './card-tab-areas.component.html',
   styleUrls: ['./card-tab-areas.component.css']
 })
-export class CardTabAreasComponent implements AfterViewInit {
-  @ViewChild('tabList') tabListRef!: ElementRef;
+export class CardTabAreasComponent /* implements AfterViewInit */ {
+/*   @ViewChild('tabList') tabListRef!: ElementRef;
 
   ngAfterViewInit(): void {
     const tabList = this.tabListRef.nativeElement as HTMLElement;
@@ -20,5 +20,5 @@ export class CardTabAreasComponent implements AfterViewInit {
         return false;
       })
     ).subscribe();
-  }
+  } */
 }

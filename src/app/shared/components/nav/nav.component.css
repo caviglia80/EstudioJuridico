@@ -1,6 +1,11 @@
 .navbar-toggler {
   box-shadow: none;
 }
+
 .navbar-icon {
   max-width: 48px;
+}
+
+.navbar ul li a {
+  font-weight: bold;
 }

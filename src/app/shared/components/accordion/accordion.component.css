@@ -1,3 +1,4 @@
-.accordion-button {
+.accordion .accordion-item .accordion-button {
     box-shadow: none;
+    font-weight: bold;
 }

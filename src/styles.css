@@ -1,33 +1,33 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ysabeau+SC:wght@600&display=swap');
 
 @keyframes btnAnimation {
-    0% {
-      transform: scale(1);
-    }
-  
-    20% {
-      transform: scale(.8);
-    }
-  
-    100% {
-      transform: scale(1);
-    }
-  }
-  
-  .Animation-active:active {
-    animation: btnAnimation .7s;
-  }
-  
-  .Animation {
-    animation: btnAnimation .5s;
+  0% {
+    transform: scale(1);
   }
 
-  .goldColor {
-    color: #ffd900bb; /* #FFD700 */
+  20% {
+    transform: scale(.8);
   }
 
+  100% {
+    transform: scale(1);
+  }
+}
 
+* {
+  font-family: 'Roboto', sans-serif !important;
+}
 
+.Animation-active:active {
+  animation: btnAnimation .7s;
+}
 
+.Animation {
+  animation: btnAnimation .5s;
+}
 
-
+.goldColor {
+  color: #ffd900bb;
+  /* #FFD700 */
+}
