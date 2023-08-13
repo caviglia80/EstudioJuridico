@@ -2,17 +2,9 @@
   min-height: 100vh !important;
 }
 
-.col h2 {
-  color: #d4b500bb !important;
-}
-
-.container .row .col h2 {
-  color: #d4b500bb;
-  font-weight: bold !important;
-  filter: brightness(150%);
-}
-
-.container .row .col p {
-  color: #d4b500bb;
-  font-weight: 600;
+.container h2 {
+  font-weight: bold;
+  color: #ffd900bb !important;
+  filter: brightness(105%);
+  box-shadow: 2px 4px 10px black !important;
 }

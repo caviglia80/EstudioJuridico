@@ -2,14 +2,16 @@
   min-height: 100vh !important;
 }
 
-.container h2,
 .container h4 {
   font-weight: bold !important;
-  filter: brightness(150%);
+  filter: brightness(105%);
 }
 
 .container h2 {
-  color: #d4b500bb !important;
+  font-weight: bold;
+  color: #ffd900bb !important;
+  filter: brightness(105%);
+  box-shadow: 2px 4px 10px black !important;
 }
 
 .card-body .card-text {

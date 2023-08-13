@@ -1,19 +1,13 @@
 .accordion .accordion-item .accordion-button {
     box-shadow: none;
     font-weight: bold;
-/*     color: #ebc700 !important; */
     color: black !important;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
     transition: .1s all;
 }
 
 .accordion .accordion-item .accordion-button:hover {
-    filter: brightness(105%);
-    color: #c4a700a8 !important;
-}
-
-.accordion .accordion-item .accordion-button:active {
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, .3);
+    color: #c4a700 !important;
 }
 
 .accordion .accordion-item .accordion-body p {
@@ -26,15 +20,12 @@
 
 .accordion-item {
     background: transparent !important;
-   /*  border-right: 1px solid #c4a700a8 !important; */
     border-left: 1px solid #c4a700a8 !important;
     border-top: 2px solid #ccc !important;
 }
 
 .accordion-item button{
     background: transparent !important;
-/*     border-right: 1px solid #c4a700a8 !important;
-    border-left: 1px solid #c4a700a8 !important; */
 }
 
 .accordion-button:not(.collapsed):after {
