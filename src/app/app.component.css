@@ -4,10 +4,11 @@
 
 .general {
     /* background-image: linear-gradient(to bottom, #ffffff75, #c4c4c475, #91919175, #c4c4c475); */
-/*     background-image: linear-gradient(to bottom, #5f5100bb, #928b66bb, #d3bf5ebb); */
-    background-image: linear-gradient(to bottom, #5f5100bb, #4d430dbb, #7e6e17bb);
+    /*     background-image: linear-gradient(to bottom, #5f5100bb, #928b66bb, #d3bf5ebb); */
+    /*     background-image: linear-gradient(to bottom, #5f5100bb, #4d430dbb, #7e6e17bb); */
+    background-image: linear-gradient(to bottom, #8d780027, #c2a5006c, #8d780046);
     background-size: 200% 200%;
-    animation: moveBackground 6s linear infinite;
+    animation: moveBackground 3s linear infinite;
 }
 
 @keyframes moveBackground {
@@ -23,3 +24,5 @@
         background-position: 0 0;
     }
 }
+
+/* #8d780027, #8d7800a7, #c2a5006c */

@@ -4,17 +4,17 @@
 
 /* No permitir seleccionar texto para todos los navegadores */
 * {
-	user-select: none;
+  user-select: none;
 }
 
 /* Para Safari */
 *::selection {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 /* Para Firefox */
 *::-moz-selection {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 @keyframes btnAnimation {
@@ -47,6 +47,3 @@
   color: #ffd900bb;
   /* #FFD700 */
 }
-
-
-
