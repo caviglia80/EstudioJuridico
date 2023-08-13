@@ -1,6 +1,21 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ysabeau+SC:wght@600&display=swap');
 
+/* No permitir seleccionar texto para todos los navegadores */
+* {
+	user-select: none;
+}
+
+/* Para Safari */
+*::selection {
+	background-color: transparent;
+}
+
+/* Para Firefox */
+*::-moz-selection {
+	background-color: transparent;
+}
+
 @keyframes btnAnimation {
   0% {
     transform: scale(1);
@@ -31,3 +46,6 @@
   color: #ffd900bb;
   /* #FFD700 */
 }
+
+
+

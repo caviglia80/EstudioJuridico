@@ -1,0 +1,20 @@
+form {
+    border: 1px solid #d4b500bb;
+    background: transparent;
+}
+
+.input-group input {
+    background: transparent !important;
+    border: 2px solid #d4b500bb;
+}
+
+.input-group input::placeholder {
+    color: #af9500;
+}
+
+.input-group button {
+    color: black !important;
+    background: #d4b500bb;
+    border: 1px solid #d4b500bb !important;
+    font-weight: bold !important;
+}

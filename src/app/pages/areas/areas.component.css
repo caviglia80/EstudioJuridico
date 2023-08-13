@@ -1,3 +1,13 @@
 .container {
   min-height: 100vh !important;
 }
+
+.container .row .col h2 {
+  color: #d4b500bb;
+  font-weight: bold;
+}
+
+.container .row .col p {
+  color: #d4b500bb;
+  font-weight: 600;
+}

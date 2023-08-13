@@ -1,3 +1,20 @@
-.card-header h4, .card-body button{
-    font-weight: bold;
-  }
+.card-header h4,
+.card-body button {
+  font-weight: bold;
+}
+
+.card,
+.card .card-header {
+  border: 1px solid #d4b500bb;
+}
+
+.card .btn {
+  border: 1px solid #d4b500bb;
+  color: #d4b500bb;
+  background: transparent;
+}
+
+.card .btn:hover {
+  color: white;
+  background: #d4b500bb;
+}

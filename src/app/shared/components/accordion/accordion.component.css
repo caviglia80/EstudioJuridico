@@ -1,4 +1,20 @@
 .accordion .accordion-item .accordion-button {
     box-shadow: none;
     font-weight: bold;
+    color: #c4a700 !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+    transition: .1s all;
+}
+
+.accordion .accordion-item .accordion-button:hover {
+    filter: brightness(105%);
+    color: #c4a700a8 !important;
+}
+
+.accordion .accordion-item .accordion-button:active {
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, .3);
+}
+
+.accordion .accordion-item .accordion-body p {
+    font-weight: bold;
 }

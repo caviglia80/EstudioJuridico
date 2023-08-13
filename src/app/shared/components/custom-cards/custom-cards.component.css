@@ -1,11 +1,30 @@
 .container .card {
-    transition: .3s all;
+    transition: .2s all;
 }
 
 .container h2 {
     font-weight: bold;
+    color: #ffd900bb !important;
+    filter: brightness(110%);
+}
+
+.container h3 {
+    color: #ffd900bb !important;
 }
 
 .container .card:hover {
     box-shadow: 5px 5px 20px black !important;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, .8) !important;
+    cursor: pointer;
+}
+
+.col .card img {
+    transition: .1s all;
+}
+
+.col:hover .card img {
+    width: 58px !important;
+    height: 58px !important;
+    box-shadow: 0px 0px 12px rgba(73, 73, 73, 0.8) !important;
+    filter: brightness(120%);
 }
