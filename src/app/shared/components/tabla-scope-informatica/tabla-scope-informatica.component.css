@@ -1,11 +1,25 @@
 .card-header h4,
-.card-body button {
-  font-weight: bold;
+.card-body button,
+.card-body ul li {
+  font-weight: bold !important;
 }
 
-.card,
-.card .card-header {
+.card-body ul li i {
+  color: #d4b500bb !important;
+}
+
+.card-body ul li:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card {
   border: 1px solid #d4b500bb;
+  background: transparent !important;
+}
+
+.card .card-header {
+  border-bottom: 1px solid #d4b500bb;
+  background: transparent !important;
 }
 
 .card .btn {
