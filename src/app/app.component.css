@@ -26,3 +26,40 @@
 }
 
 /* #8d780027, #8d7800a7, #c2a5006c */
+
+.loaded .loading-screen {
+    pointer-events: none;
+}
+
+.loading-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    transition: all 1s ease-in-out;
+    opacity: .9;
+}
+
+.exitBack {
+    opacity: 0;
+}
+
+.exit {
+    display: none;
+}
+
+.content {
+    opacity: 1;
+    transition: all 1.2s ease-in-out;
+}
+
+.loaded .content {
+    opacity: 0;
+    transform: scale(500%);
+}
