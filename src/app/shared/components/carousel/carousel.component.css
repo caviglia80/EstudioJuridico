@@ -1,3 +1,7 @@
 .img-fluid {
     width: 100%;
 }
+
+.carousel {
+    box-shadow: 0px 5px 30px black !important;
+}

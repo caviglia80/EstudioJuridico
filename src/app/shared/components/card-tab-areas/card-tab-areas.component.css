@@ -28,3 +28,7 @@
 .card .card-body p li::marker {
   color: #bb9f00d3;
 }
+
+p {
+  font-weight: bold !important;
+}

@@ -9,7 +9,9 @@ form {
 }
 
 .input-group input::placeholder {
-    color: #af9500;
+    /*     color: #af9500; */
+    color: black !important;
+    font-weight: bold !important;
 }
 
 .input-group button {

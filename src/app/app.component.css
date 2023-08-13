@@ -3,7 +3,9 @@
 }
 
 .general {
-    background-image: linear-gradient(to bottom, #ffffff75, #c4c4c475, #b3b3b375, #ffffff75);
+    /* background-image: linear-gradient(to bottom, #ffffff75, #c4c4c475, #91919175, #c4c4c475); */
+/*     background-image: linear-gradient(to bottom, #5f5100bb, #928b66bb, #d3bf5ebb); */
+    background-image: linear-gradient(to bottom, #5f5100bb, #4d430dbb, #7e6e17bb);
     background-size: 200% 200%;
     animation: moveBackground 6s linear infinite;
 }
