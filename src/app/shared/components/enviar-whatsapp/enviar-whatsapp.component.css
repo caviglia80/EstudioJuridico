@@ -19,4 +19,5 @@ form {
     background: #d4b500bb;
     border: 1px solid #d4b500bb !important;
     font-weight: bold !important;
+    z-index: 0;
 }

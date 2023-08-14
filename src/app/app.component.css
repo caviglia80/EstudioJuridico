@@ -57,9 +57,11 @@
 .content {
     opacity: 1;
     transition: all 1.2s ease-in-out;
+    filter: brightness(140%) !important;
 }
 
 .loaded .content {
     opacity: 0;
     transform: scale(500%);
+    filter: brightness(10%) !important;
 }

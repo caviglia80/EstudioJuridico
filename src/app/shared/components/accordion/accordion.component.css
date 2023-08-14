@@ -6,7 +6,7 @@
     transition: .1s all;
 }
 
-.accordion .accordion-item .accordion-button:hover {
+.accordion .accordion-item .accordion-button:active {
     color: #c4a700 !important;
 }
 

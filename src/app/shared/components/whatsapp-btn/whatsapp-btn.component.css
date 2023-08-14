@@ -1,6 +1,7 @@
 .float-button {
   cursor: pointer !important;
   transition: all .2s !important;
+  z-index: 9999 !important;
 }
 
 .float-button:hover {
