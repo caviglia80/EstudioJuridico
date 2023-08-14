@@ -9,9 +9,9 @@ form {
 }
 
 .input-group input::placeholder {
-    /*     color: #af9500; */
     color: black !important;
     font-weight: bold !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
 }
 
 .input-group button {
@@ -20,4 +20,8 @@ form {
     border: 1px solid #d4b500bb !important;
     font-weight: bold !important;
     z-index: 0;
+}
+
+.input-group .form-control {
+    font-weight: bold !important;
 }
