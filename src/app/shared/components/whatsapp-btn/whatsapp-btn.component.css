@@ -11,5 +11,5 @@
 
 .float-button:hover svg {
   /*   fill: #25D366; */
-  fill: #09ae45;
+  fill: #09ae45 !important;
 }

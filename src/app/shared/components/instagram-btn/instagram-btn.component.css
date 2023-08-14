@@ -4,11 +4,10 @@
 }
 
 .float-button:hover {
-  cursor: pointer !important;
   transform: scale(120%);
   filter: brightness(120%);
 }
 
 .float-button:hover svg {
-  fill: url(#gradient);
+  fill: url(#gradient) !important;
 }
