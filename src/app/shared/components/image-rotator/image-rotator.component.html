@@ -1,0 +1,7 @@
+<div class="background-images-container">
+  <div class="image-overlay"></div>
+  <ng-container *ngFor="let imageUrl of imageUrls; let index = index">
+    <div class="background-image" [ngClass]="{ active: index === currentIndex }"
+      [style.backgroundImage]="'url(' + imageUrl + ')'"></div>
+  </ng-container>
+</div>
