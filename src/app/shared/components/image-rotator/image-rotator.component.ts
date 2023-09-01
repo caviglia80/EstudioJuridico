@@ -16,6 +16,6 @@ export class ImageRotatorComponent implements OnInit {
   startImageRotation() {
     setInterval(() => {
       this.currentIndex = (this.currentIndex + 1) % this.imageUrls.length;
-    }, 5000);
+    }, 10000);
   }
 }
