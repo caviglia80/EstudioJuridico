@@ -79,6 +79,11 @@
   border-top-right-radius: calc(0.25rem - 1px);
 }
 
+.card-img-top {
+  border-radius: 15px;
+  overflow: hidden;
+}
+
 .card-body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
