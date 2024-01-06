@@ -1,30 +1,30 @@
 <section>
-    <div class="loading-screen" [ngClass]="{'loaded': loaded, 'exitBack': exitBack, 'exit': exit}">
-        <div class="content">
-            <img src="assets/logoletters.png" alt="">
-        </div>
+  <div class="loading-screen" [ngClass]="{'loaded': loaded, 'exitBack': exitBack, 'exit': exit}">
+    <div class="content">
+      <img src="assets/logoletters.png" alt="">
     </div>
+  </div>
 </section>
 
 <section class="bg-light general">
-    <section>
-        <header>
-            <app-nav></app-nav>
-            <app-aviso-fuera-de-horario></app-aviso-fuera-de-horario>
-            <app-mensaje-usuario></app-mensaje-usuario>
-        </header>
-    </section>
+  <section>
+    <header>
+      <app-nav></app-nav>
+      <app-aviso-fuera-de-horario></app-aviso-fuera-de-horario>
+      <app-mensaje-usuario></app-mensaje-usuario>
+    </header>
+  </section>
 
-    <section>
-        <router-outlet></router-outlet>
-        <div class="d-flex flex-column position-fixed end-0 bottom-0 z-index-9999 text-center">
-            <app-whatsapp-btn></app-whatsapp-btn>
-            <app-instagram-btn></app-instagram-btn>
-        </div>
-    </section>
+  <section>
+    <router-outlet></router-outlet>
+    <div class="d-flex flex-column position-fixed end-0 bottom-0 z-index-9999 text-center">
+      <app-whatsapp-btn></app-whatsapp-btn>
+      <app-instagram-btn></app-instagram-btn>
+    </div>
+  </section>
 
-    <section>
-        <!--  <div class="border-left" style="height: 50px;"></div> -->
-        <app-footer *ngIf="!currentRoute?.includes('home')"></app-footer>
-    </section>
+  <section>
+    <!--  <div class="border-left" style="height: 50px;"></div> -->
+    <app-footer *ngIf="!currentRoute?.includes('home')"></app-footer>
+  </section>
 </section>

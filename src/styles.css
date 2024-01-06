@@ -48,3 +48,25 @@
   /* #FFD700 */
 }
 
+
+.fondo {
+  background-color: #ccc;
+  /* background-image: linear-gradient(to bottom, #8d780027, #c2a5006c, #8d780046);
+  background-size: 200% 200%;
+  animation: moveBackground 3s linear infinite; */
+}
+
+/*
+@keyframes moveBackground {
+  0% {
+    background-position: 0 0;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0 0;
+  }
+} */

@@ -1,3 +1,38 @@
 .container {
   min-height: 100vh !important;
 }
+
+.accordion .accordion-item .accordion-button {
+  box-shadow: none;
+  font-weight: bold;
+  color: black !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+  transition: .1s all;
+}
+
+.accordion .accordion-item .accordion-button:active {
+  color: #c4a700 !important;
+}
+
+.accordion .accordion-item .accordion-body p {
+  font-weight: bold;
+}
+
+.accordion .accordion-body {
+  background: transparent !important;
+}
+
+.accordion-item {
+  background: transparent !important;
+  border-left: 1px solid #c4a700a8 !important;
+  border-top: 2px solid #ccc !important;
+}
+
+.accordion-item button {
+  background: transparent !important;
+}
+
+.accordion-button:not(.collapsed):after {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23ebc700' class='bi bi-chevron-up' viewBox='0 0 18 18'%3E%3Cpath d='M1.293 10.293a1 1 0 0 1 1.414 0L8 14.586l5.293-5.293a1 1 0 0 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 0-1.414z'/%3E%3C/svg%3E");
+  transform: rotate(180deg);
+}
