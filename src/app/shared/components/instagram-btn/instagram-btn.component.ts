@@ -10,7 +10,7 @@ import { GlobalVariables } from 'src/app/app.component';
 })
 export class InstagramBtnComponent implements OnDestroy {
   private navigationEndSubscription: Subscription;
-  public isLegalPage: boolean = true; 
+  public isLegalPage: boolean = true;
 
   constructor(private router: Router) {
     this.navigationEndSubscription = this.router.events.subscribe((event) => {
@@ -24,8 +24,8 @@ export class InstagramBtnComponent implements OnDestroy {
   }
 
   redirectToInstagram() {
-    const appLink = "instagram://user?username=" + GlobalVariables.instagram1;
-    const webLink = "https://www.instagram.com/" + GlobalVariables.instagram1;
+    const appLink = "instagram://user?username=" + GlobalVariables.instagramEstudioJuridico;
+    const webLink = "https://www.instagram.com/" + GlobalVariables.instagramEstudioJuridico;
 
     if (this.isInstagramAppInstalled())
       window.location.href = appLink;

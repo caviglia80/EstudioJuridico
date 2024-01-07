@@ -10,3 +10,38 @@
 .container p {
   font-weight: bold;
 }
+
+.card-header h4,
+.card-body button,
+.card-body ul li {
+  font-weight: bold !important;
+}
+
+.card-body ul li i {
+  color: #d4b500bb !important;
+}
+
+.card-body ul li:hover {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+  border: 1px solid blue;
+  background: transparent !important;
+}
+
+.card .card-header {
+  border-bottom: 1px solid #a7a7a7bb;
+  background: transparent !important;
+}
+
+.card .btn {
+  border: 1px solid #d4b500bb;
+  color: #d4b500bb;
+  background: transparent;
+}
+
+.card .btn:hover {
+  color: white;
+  background: #d4b40050;
+}

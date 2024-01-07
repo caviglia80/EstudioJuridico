@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
   public loaded: boolean = false;
   public exitBack: boolean = false;
   public exit: boolean = false;
-  public currentRoute: string | undefined= '';
+  public currentRoute: string | undefined = '';
 
   constructor(private router: Router, private route: ActivatedRoute) {
     this.router.events.subscribe(event => {
@@ -44,6 +44,6 @@ export class GlobalVariables {
   public static whatsapp_txt_1: string = 'Buenos dias, quisiera tener mas informacion sobre un tema legal'; // LEGAL
   public static whatsapp_2: string = '5492364653595';       // INFORMATICA
   public static whatsapp_txt_2: string = 'Buenos dias, tengo interes en saber mas sobre el servicio de desarrollo para '; // INFORMATICA
-  public static instagram1: string = 'cavigliayasociados';  // LEGAL
+  public static instagramEstudioJuridico: string = 'cavigliayasociados';  // LEGAL
   public static mostrarMensajeUsuario: string = '';
 }

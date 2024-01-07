@@ -124,12 +124,13 @@
 }
 
 .card-body {
-  background-image: linear-gradient(to bottom, #8d780027, #c2a5006c, #8d780046) !important;
+  background-color: #ccc !important;
+  /* background-image: linear-gradient(to bottom, #8d780027, #c2a5006c, #8d780046) !important;
   background-size: 200% 200% !important;
-  animation: moveBackground 3s linear infinite !important;
+  animation: moveBackground 3s linear infinite !important; */
 }
 
-@keyframes moveBackground {
+/* @keyframes moveBackground {
   0% {
     background-position: 0 0;
   }
@@ -141,4 +142,26 @@
   100% {
     background-position: 0 0;
   }
+} */
+
+.instagram-text {
+  transition: color 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.instagram-text:hover {
+  color: #833AB4;
+  cursor: pointer;
+}
+
+.facebook-text {
+  transition: color 0.3s;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.facebook-text:hover {
+  color: #3b5998;
+  cursor: pointer;
 }

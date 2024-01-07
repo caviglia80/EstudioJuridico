@@ -41,3 +41,14 @@
 p {
   font-weight: bold !important;
 }
+
+h4 {
+  color: black;
+  transition: color 0.3s;
+}
+
+h4:hover {
+  color: #343434;
+  cursor: auto;
+  text-decoration: underline;
+}
