@@ -4,24 +4,24 @@ form {
 }
 
 .input-group input {
-    background: transparent !important;
+    background: transparent;
     border: 2px solid #d4b500bb;
 }
 
 .input-group input::placeholder {
-    color: black !important;
-    font-weight: bold !important;
+    color: black;
+    font-weight: bold;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
 }
 
 .input-group button {
-    color: black !important;
+    color: black;
     background: #d4b500bb;
-    border: 1px solid #d4b500bb !important;
-    font-weight: bold !important;
+    border: 1px solid #d4b500bb;
+    font-weight: bold;
     z-index: 0;
 }
 
 .input-group .form-control {
-    font-weight: bold !important;
+    font-weight: bold;
 }

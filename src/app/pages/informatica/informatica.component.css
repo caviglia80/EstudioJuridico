@@ -1,5 +1,5 @@
 .container {
-  min-height: 100vh !important;
+  min-height: 100vh;
 }
 
 .container h1 {
@@ -12,13 +12,13 @@
 }
 
 .btn {
-  border: 1px solid #2600a5ba;
-  color: #2600a5ba;
-  font-size: bold !important;
+  border: 1px solid #3200d7ce;
+  color: #3200d7ce;
+  font-size: bold;
   background: transparent;
 }
 
 .btn:hover {
   color: white;
-  background: #2600a5ba;
+  background: #3200d7ce;
 }

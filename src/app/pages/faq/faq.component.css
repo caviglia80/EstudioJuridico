@@ -1,17 +1,17 @@
 .container {
-  min-height: 100vh !important;
+  min-height: 100vh;
 }
 
 .accordion .accordion-item .accordion-button {
   box-shadow: none;
   font-weight: bold;
-  color: black !important;
+  color: black;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
   transition: .1s all;
 }
 
 .accordion .accordion-item .accordion-button:active {
-  color: #c4a700 !important;
+  color: #c4a700;
 }
 
 .accordion .accordion-item .accordion-body p {
@@ -19,17 +19,17 @@
 }
 
 .accordion .accordion-body {
-  background: transparent !important;
+  background: transparent;
 }
 
 .accordion-item {
-  background: transparent !important;
-  border-left: 1px solid #c4a700a8 !important;
-  border-top: 2px solid #ccc !important;
+  background: transparent;
+  border-left: 1px solid #c4a700a8;
+  border-top: 2px solid #ccc;
 }
 
 .accordion-item button {
-  background: transparent !important;
+  background: transparent;
 }
 
 .accordion-button:not(.collapsed):after {

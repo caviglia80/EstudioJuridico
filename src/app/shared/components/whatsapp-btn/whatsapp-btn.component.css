@@ -1,7 +1,7 @@
 .float-button {
-  cursor: pointer !important;
-  transition: all .2s !important;
-  z-index: 9999 !important;
+  cursor: pointer;
+  transition: all .2s;
+  z-index: 9999;
 }
 
 .float-button:hover {
@@ -11,5 +11,5 @@
 
 .float-button:hover svg {
   /*   fill: #25D366; */
-  fill: #09ae45 !important;
+  fill: #09ae45;
 }

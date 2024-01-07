@@ -1,12 +1,12 @@
 .container h2 {
     font-weight: bold;
-    color: #ffd900bb !important;
+    color: #ffd900bb;
     filter: brightness(105%);
-    box-shadow: 2px 4px 10px black !important;
+    box-shadow: 2px 4px 10px black;
 }
 
 .container h3 {
-    color: #ffd900bb !important;
+    color: #ffd900bb;
 }
 
 .container .card {
@@ -15,8 +15,8 @@
 }
 
 .container .card:hover {
-    box-shadow: 5px 5px 20px black !important;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, .8) !important;
+    box-shadow: 5px 5px 20px black;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, .8);
     cursor: pointer;
     opacity: 1;
 }
@@ -26,8 +26,8 @@
 }
 
 .col:hover .card img {
-    width: 58px !important;
-    height: 58px !important;
-    box-shadow: 0px 0px 12px rgba(73, 73, 73, 0.8) !important;
+    width: 58px;
+    height: 58px;
+    box-shadow: 0px 0px 12px rgba(73, 73, 73, 0.8);
     filter: brightness(120%);
 }

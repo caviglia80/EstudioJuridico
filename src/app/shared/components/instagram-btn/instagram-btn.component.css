@@ -1,6 +1,6 @@
 .float-button {
-  cursor: pointer !important;
-  transition: all .2s !important;
+  cursor: pointer;
+  transition: all .2s;
 }
 
 .float-button:hover {
@@ -9,5 +9,5 @@
 }
 
 .float-button:hover svg {
-  fill: url(#gradient) !important;
+  fill: url(#gradient);
 }

@@ -1,6 +1,6 @@
 .general {
   min-height: 100vh;
-  background-color: #ccc !important;
+  background-color: #ccc;
 }
 
 /* #8d780027, #8d7800a7, #c2a5006c */
@@ -35,11 +35,11 @@
 .content {
   opacity: 1;
   transition: all 1.2s ease-in-out;
-  filter: brightness(140%) !important;
+  filter: brightness(140%);
 }
 
 .loaded .content {
   opacity: 0;
   transform: scale(500%);
-  filter: brightness(10%) !important;
+  filter: brightness(10%);
 }

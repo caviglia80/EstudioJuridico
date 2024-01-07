@@ -4,9 +4,9 @@
     height: 100vh;
     overflow: hidden;
     z-index: 0;
-    box-shadow: 0px 10px 40px black !important;
+    box-shadow: 0px 10px 40px black;
   }
-  
+
   .background-image {
     position: absolute;
     top: 0;
@@ -19,7 +19,7 @@
     opacity: 0;
     transition: opacity 3s ease-in-out;
   }
-  
+
   .background-image.active {
     opacity: 1;
   }
@@ -43,7 +43,7 @@
   min-height: 100vh;
   overflow: hidden;
   z-index: 0;
-  box-shadow: 0px 10px 40px black !important;
+  box-shadow: 0px 10px 40px black;
 }
 
 .image-overlay {

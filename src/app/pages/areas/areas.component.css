@@ -1,35 +1,35 @@
 .container {
-  min-height: 100vh !important;
+  min-height: 100vh;
 }
 
 .container h2 {
   font-weight: bold;
-  color: #ffd900bb !important;
+  color: #ffd900bb;
   filter: brightness(105%);
-  box-shadow: 2px 4px 10px black !important;
+  box-shadow: 2px 4px 10px black;
 }
 
 .card {
   border: 1px solid #d4b500bb;
-  background: transparent !important;
+  background: transparent;
 }
 
 .card .card-header {
   border-bottom: 1px solid #d4b500bb;
-  background: transparent !important;
+  background: transparent;
 }
 
 .card .card-header .active {
-  background: transparent !important;
-  border-bottom: 2px solid #d4b400ea !important;
+  background: transparent;
+  border-bottom: 2px solid #d4b400ea;
 }
 
 .card .card-header ul li a {
-  border-radius: 0% !important;
+  border-radius: 0%;
   border: none;
   box-shadow: none;
   font-weight: bold;
-  color: black !important;
+  color: black;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
   transition: .2s all;
 }
@@ -39,7 +39,7 @@
 }
 
 p {
-  font-weight: bold !important;
+  font-weight: bold;
 }
 
 h4 {

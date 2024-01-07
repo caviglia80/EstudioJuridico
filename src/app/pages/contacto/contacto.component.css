@@ -1,21 +1,21 @@
 .container {
-  min-height: 100vh !important;
+  min-height: 100vh;
 }
 
 .container h4 {
-  font-weight: bold !important;
+  font-weight: bold;
   filter: brightness(105%);
 }
 
 .container h2 {
   font-weight: bold;
-  color: #ffd900bb !important;
+  color: #ffd900bb;
   filter: brightness(105%);
-  box-shadow: 2px 4px 10px black !important;
+  box-shadow: 2px 4px 10px black;
 }
 
 .card-body .card-text {
-  font-weight: bold !important;
+  font-weight: bold;
 }
 
 .card-body .card-title {
@@ -87,7 +87,7 @@
 .card-body {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  border-radius: 0 !important;
+  border-radius: 0;
 }
 
 .card .card-body .card-text {
@@ -120,14 +120,14 @@
 }
 
 .text-center {
-  text-align: center !important;
+  text-align: center;
 }
 
 .card-body {
-  background-color: #ccc !important;
-  /* background-image: linear-gradient(to bottom, #8d780027, #c2a5006c, #8d780046) !important;
-  background-size: 200% 200% !important;
-  animation: moveBackground 3s linear infinite !important; */
+  background-color: #ccc;
+  /* background-image: linear-gradient(to bottom, #8d780027, #c2a5006c, #8d780046);
+  background-size: 200% 200%;
+  animation: moveBackground 3s linear infinite; */
 }
 
 /* @keyframes moveBackground {
