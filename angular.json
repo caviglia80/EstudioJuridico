@@ -24,8 +24,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -52,8 +51,8 @@
             "development": {
               "buildOptimizer": true,
               "optimization": true,
-              "vendorChunk": true,
-              "extractLicenses": false,
+              "vendorChunk": false,
+              "extractLicenses": true,
               "sourceMap": false,
               "namedChunks": false
             }
@@ -91,8 +90,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [
-            ]
+            "scripts": []
           }
         }
       }

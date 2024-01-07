@@ -1,15 +1,6 @@
-/* To learn more about this file see: https://angular.io/config/tsconfig. */
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "paths": {
-      "@app/*": ["src/app/*"],
-      "@shared/*": ["src/app/shared/*"],
-      "@components/*": ["src/app/shared/components/*"],
-      "@environments/*": ["src/environments/*"],
-      "@services/*": ["src/app/shared/services/*"],
-      "@pages/*": ["src/app/pages/*"]
-    },
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
@@ -18,7 +9,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
@@ -29,12 +20,33 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@app/*": [
+        "src/app/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@components/*": [
+        "src/app/shared/components/*"
+      ],
+      "@environments/*": [
+        "src/environments/*"
+      ],
+      "@services/*": [
+        "src/app/shared/services/*"
+      ],
+      "@pages/*": [
+        "src/app/pages/*"
+      ]
+    },
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "aot": true
   }
 }
